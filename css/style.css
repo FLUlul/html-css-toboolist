@@ -5,36 +5,33 @@
 }
 .containerApp{
     background-color: rgba(228, 228, 228, 0.74);
-    width: 70%;
+    width: 60%;
     margin:auto;
     height: 100%;
 }
 .containerHeader{
-    
+    padding-left: 30px;
     background-color: rgb(255, 255, 255) ;
     height: 80px;
     width: 100%;
-    border: solid 1px;
     margin:auto;
 }
 .titoloHeader{
     display: inline-block;
     line-height: 80px;
     vertical-align: middle;
-    border: solid 1px;
-  
+    font-size: 40px;  
 }
 .logoHeader{
     display: inline-block;
     line-height: 80px;
     vertical-align: middle;
-    border: solid 1px;
+
 }
 
 .containerSection{
     background-color:rgb(255, 255, 255) ;
-    width: 60%;
-    
+    width: 70%;
     margin: 3% auto;
     border-radius: 10px;
 }
@@ -63,7 +60,63 @@ button{
 .taskSection{
     padding: 30px 40px;
 }
-h2{
+
+
+
+.titoloTask{
     display: inline-block;
     padding-left: 10px;
+}
+
+
+
+
+.contentTask{
+    padding-top: 10px;
+    display: inline-block;
+}
+
+
+
+
+
+.check{
+    display: inline-block;
+    border: solid 1px rgb(3, 190, 3);
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 1px 5px;
+    margin-right: 15px;
+}
+
+.check::after{
+    color:rgb(3, 190, 3) ;
+    content: "\2713";
+}
+
+.cross{
+    display: inline-block;
+    border: solid 1px rgb(3, 190, 3);
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 1px 5px;
+    margin-right: 15px;
+}
+
+.cross::after{
+    color: red;
+    content: "\2715";
+}
+
+
+
+.typeTask{
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px 8px;
+    color: white;
+    font-size: 12px; 
+}
+#editorial{
+    background-color: #47adf1;
 }
