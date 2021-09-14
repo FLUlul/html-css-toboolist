@@ -60,3 +60,11 @@ button{
     background-color: rgb(255, 255, 255) ;
     color: rgb(201, 201, 201) ;
 }
+
+.taskSection{
+    padding: 30px 40px;
+}
+h2{
+    display: inline-block;
+    padding-left: 10px;
+}
