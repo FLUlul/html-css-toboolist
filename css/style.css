@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 .containerApp{
+    font-family: 'Roboto', sans-serif;
     background-color: rgba(228, 228, 228, 0.74);
     width: 60%;
     margin:auto;
-    height: 100%;
+    padding-bottom: 50px;
 }
 .containerHeader{
     padding-left: 30px;
@@ -34,6 +35,7 @@
     width: 70%;
     margin: 3% auto;
     border-radius: 10px;
+    
 }
 
 .toolSection{
