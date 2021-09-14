@@ -19,17 +19,15 @@
 }
 .titoloHeader{
     display: inline-block;
-    /* height: 80px;
     line-height: 80px;
-    vertical-align: top; */ 
+    vertical-align: middle;
     border: solid 1px;
   
 }
 .logoHeader{
     display: inline-block;
-    /* height: 50px; */
-    /* width: 50px;*/
-    /* vertical-align: baseline;  */
+    line-height: 80px;
+    vertical-align: middle;
     border: solid 1px;
 }
 
@@ -50,6 +48,7 @@ button{
     border: solid 1px;
     border-radius: 5px;
     padding: 1% ;
+    cursor: pointer;
 }
 
 #btnTask{
