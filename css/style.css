@@ -36,6 +36,27 @@
 .containerSection{
     background-color:rgb(255, 255, 255) ;
     width: 60%;
+    
     margin: 3% auto;
     border-radius: 10px;
+}
+
+.toolSection{
+    border-bottom: solid 2px rgba(228, 228, 228, 0.74);
+    padding: 10px 40px;
+}
+
+button{
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 1% ;
+}
+
+#btnTask{
+    background-color: #47adf1;
+    color: white;
+}
+#btnSection{
+    background-color: rgb(255, 255, 255) ;
+    color: rgb(201, 201, 201) ;
 }
