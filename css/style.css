@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containerHeader{
+    
+    /* background-color: rgb(247, 0, 0) ; */
+    height: 80px;
+    border: solid 1px;
+}
+.titoloHeader{
+    display: inline-block;
+    /* height: 80px;
+    line-height: 80px;
+    vertical-align: top; */ 
+    border: solid 1px;
+  
+}
+.logoHeader{
+    display: inline-block;
+    /* height: 50px; */
+    /* width: 50px;*/
+    /* vertical-align: baseline;  */
+    border: solid 1px;
+
+}
