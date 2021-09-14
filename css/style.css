@@ -3,11 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+.containerApp{
+    background-color: rgba(228, 228, 228, 0.74);
+    width: 70%;
+    margin:auto;
+    height: 100%;
+}
 .containerHeader{
     
-    /* background-color: rgb(247, 0, 0) ; */
+    background-color: rgb(255, 255, 255) ;
     height: 80px;
+    width: 100%;
     border: solid 1px;
+    margin:auto;
 }
 .titoloHeader{
     display: inline-block;
@@ -23,5 +31,11 @@
     /* width: 50px;*/
     /* vertical-align: baseline;  */
     border: solid 1px;
+}
 
+.containerSection{
+    background-color:rgb(255, 255, 255) ;
+    width: 60%;
+    margin: 3% auto;
+    border-radius: 10px;
 }
